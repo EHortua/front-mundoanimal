@@ -1,0 +1,40 @@
+.admin-form {
+  background: var(--yellow-light-2);
+  box-shadow: 3px 5px 15px var(--bs-gray-400);
+  border-radius: 10px;
+}
+
+.admin-form-buttons button:nth-child(1) {
+  background-color: var(--blue-light-1);
+}
+.admin-form-buttons button:nth-child(2) {
+  background-color: var(--bs-danger);
+}
+
+.add-prod {
+  background-color: var(--blue-light-1) !important;
+  border: none !important;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.add-prod:hover {
+  background-color: var(--blue-dark-1) !important;
+  color: var(--yellow-1) !important;
+  box-shadow: 0px 5px 10px var(--blue-light-1);
+  transform: scale(1.1);
+}
+.modal-dialog {
+  color: var(--blue-light-1);
+}
+.modal-dialog button[type="submit"] {
+  background-color: var(--blue-light-1);
+  border: none;
+}
+.modal-title {
+  font-size: 1.1rem !important;
+}
+
+@media (min-width: 1024px) {
+  .width-med {
+    width: 72%!important;
+  }
+}
